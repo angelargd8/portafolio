@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(../img/wallpaper2.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+/*arriba y abajo, para el espacio*/
+.altura-a-b{
+    padding: 150px;
+
+}
+
+.footer{
+    background-color: #e41b22;
+    padding: 100px 0;
+    text-align: center;
+}

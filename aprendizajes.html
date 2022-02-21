@@ -1,0 +1,276 @@
+<!-- 
+    -Portafolio 
+    -Angela Garcia #22869
+    -fecha de ultima modificacion: 20/02/2022
+-->
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../portafolio/css/estilo2.css">
+
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <font color="white">
+     <!-- ----------------------------------------menu --------------------------------------------->
+    
+     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #7e0664;">
+      <div class="container">
+      
+        <!--<a class="navbar-brand" href="menu.html">
+      
+          <img class="logotipo" src="../proyecto/img/logo7.jpg" alt="" width="70" height="60" >
+         
+        </a>-->
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>     
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <!-- Inicio -->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+
+          <!--   Acerca de mí -->
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Acerca de mí</a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="index.html#QuienSoy">Quien soy</a></li>
+                <li><a class="dropdown-item" href="index.html#Estudio">Lugar en el que estudie</a></li>
+                <li><a class="dropdown-item" href="index.html#Intereses">Intereses</a></li>
+                <li><a class="dropdown-item" href="index.html#Carrera">Carrera</a></li>
+
+              </ul>
+            </li>
+
+            <!--   Mi primer semestre -->
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" aria-current="page" href="#primersemestre.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mi primer semestre</a>
+  
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="primersemestre.html">Carrusel de fotos</a></li>
+                  <li><a class="dropdown-item" href="primersemestre.html#Experiencias">Experiencias</a></li>
+                  <li><a class="dropdown-item" href="primersemestre.html#Interesante">Lo que me ha parecido interesante</a></li>
+                  <li><a class="dropdown-item" href="primersemestre.html#Motivaciones">Motivaciones</a></li>
+                  <li><a class="dropdown-item" href="primersemestre.html#Dificultades">Dificultades</a></li>
+  
+                </ul>
+              </li>
+
+            <!--   Mis aprendizajes en computación  -->
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mis aprendizajes en computación
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="aprendizajes.html">Carrusel de fotos de algunos proyectos</a></li>
+                <li><a class="dropdown-item" href="aprendizajes.html#Aprendizaje1">Aprendizajes </a></li>
+                <li><a class="dropdown-item" href="aprendizajes.html#Proyectos">Proyectos</a></li>
+
+                
+                                                
+                <!-- <li><hr class="dropdown-divider"></li>-->
+                                  
+              </ul>
+
+            </li>
+
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+<!--------------------------------------------- Slider / carrusel -------------------------------------------->
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <!-- Indicadores -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      
+    </div>
+
+      <!-- Imagenes -->
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1000">
+          
+          <img src="../portafolio/img/a1.png" class="d-block w-100 h-90" alt="img1">
+          <div class="carousel-caption d-none d-md-block">
+            <font color="white" SIZE=150 Face="impact">
+                Sistema solar en pygame</font>
+             
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="../portafolio/img/a2.png" class="d-block w-100" alt="img2">
+          <div class="carousel-caption d-none d-md-block">
+            <font color="white" SIZE=150 Face="impact">
+                Inicio de sesión con php y Javascript</font>
+            
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="../portafolio/img/a3.png" class="d-block w-100" alt="img3" >
+          <div class="carousel-caption d-none d-md-block">
+            <font color="black" SIZE=150 Face="impact">
+                Hanoi</font>
+            
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="../portafolio/img/a4.png" class="d-block w-100" alt="img3" >
+            <div class="carousel-caption d-none d-md-block">
+                <font color="black" SIZE=150 Face="impact">
+                    Manejo de archivos binarios</font>
+              
+            </div>
+          </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- -------------------------------              Main                  ------------------------------------------------->
+    <main>
+      <!--  Espacios -->
+      <section class="altura-a-b">
+
+        <!-- 1 -->
+      <section id="Aprendizaje1">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-12 col-sm-15 text-center">
+              <br><h2>Lógica</h2>
+              <p>
+                Considero que una de las cosas más díficiles de desarrollar es la lógica en los programas y problemas,
+                entendiendo la lógica que estos tienen y comprendiendo los pasos que se deben de llevar.
+              </p>
+            </div>
+
+        
+        <!-- 2 -->
+      <section id="Aprendizaje2">
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-12 col-sm-15 text-center">
+              <br><h2> Paciencia </h2>
+              <p>
+                Otra de las cosas más importantes es la paciencia, ya que de por si a veces suele ser díficil 
+                llegar a tener la lógica de los problemas y entender realmente que pasos se deben de seguir, por 
+                lo cual es importante saber que muchas veces los programas no van a funcionar por algún error de 
+                lógica o sintaxis y esto puede llegar a ser muy tedioso o cansado, por lo cual es importante saber
+                tomar un tiempo para comprender que se está haciendo mal.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>    
+        
+      <!--  3 -->
+      <section id="Aprendizaje3">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-12 col-sm-15 text-center">
+              <br><h2>Documentación</h2>
+              <p> 
+                La documentación puede parecer aburrida y tediosa, sin embargo, realmente es un buen hábito 
+                que nos ayuda a comprender
+                que es lo que estamos haciendo y donde estamos. Además que es una herramienta muy importante cuando 
+                desde hace mucho tiempo no se ha visto el código o la funcionalidad de algo específico y la documentación
+                ayuda a saber para que sirve.
+              </p>
+           </div>
+           
+          </div>
+        </div>
+    </section>
+
+    <section id="Proyectos">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-12 col-sm-15 text-center">
+              <br><h2>Algunos proyectos en Python:</h2>
+              <p> 
+                <font color="white" SIZE=5 Face="impact">
+                    
+                <li><a class="dropdown-item" href="https://youtu.be/5sqX_YsXFHU">Sistema solar en python:</a></li>
+                <li><a class="dropdown-item" href="https://youtu.be/gud4ag0OW8U">Tablero de ajedrez en python:</a></li>
+            </font>
+
+              </p>
+           </div>
+           
+          </div>
+        </div>
+    </section>
+
+
+
+    </main>
+
+    <!-- -------------------------------              footer                  ------------------------------------------------->
+    <footer>
+      <section>
+        <div class="container">
+          <div class="row">
+
+            <!--<div class="col-12 col-sm-6">
+            
+              <img src="../proyecto/img/logo1.jpg" alt="logo">              
+            </div>-->
+            <div class="col-12 col-sm-15 text-center">
+              <br><br><br><br><br>
+              <h6>© 2022 Angela García. Todos los derechos reservados</h6>
+              
+            </div>
+
+        
+          </div>
+        </div>
+    </section>
+     
+      
+      
+    </footer>
+
+    <!-- bootstrap xd -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
